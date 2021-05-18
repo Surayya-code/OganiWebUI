@@ -1,0 +1,15 @@
+﻿<ul>
+    <li class="active"><a asp-controller="home" asp-action="index">Home</a></li>
+    <li><a asp-controller="Shop" asp-action="index">Shop</a></li>
+    <li>
+        <a href="#">Pages</a>
+        <ul class="header-menu-dropdown">
+            <li><a asp-controller="Shop" asp-action="Details">Shop Details</a></li>
+            <li><a asp-controller="shop" asp-action="ShoppingCards">Shoping Cart</a></li>
+            <li><a asp-controller="shop" asp-action="Checkout">Check Out</a></li>
+            <li><a asp-controller="blog" asp-action="Details">Blog Details</a></li>
+        </ul>
+    </li>
+    <li><a asp-controller="blog" asp-action="index">Blog</a></li>
+    <li><a asp-controller="home" asp-action="Contact">Contact</a></li>
+</ul>
